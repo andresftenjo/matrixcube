@@ -1,0 +1,59 @@
+﻿<!-- ko with: home -->
+<div class="jumbotron">
+    <h2>Cube Summation challenge in a Single Page App!</h2>
+    <p class="lead">This application solve the <a href="https://www.hackerrank.com/challenges/cube-summation/problem" target="_blank">Cube Summation challenge</a> in a single page application, using a web service and jquery.</p>
+
+    <section id="sendMatrixContainer">
+
+        <div class="form-group form1">
+            <div class="row">
+                <label class="col-md-2">Enter the Number of test-cases:</label>
+                <div class="col-md-10">
+                    <input type="text" style="width:50%;" id="txtNumberTest" placeholder="Ex: 2" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="button" id="setNumTest" value="Send" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <div class="testCases-container">
+
+        </div>
+        @*<div class="form-group testCase">
+            <div class="row">
+                <label class="col-md-2">Enter the Matrix Dimension:</label>                 
+                <div class="col-md-10">
+                    <input style="width:50%;" type="text" class="txtDimension" />
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-md-2">Enter the Updates or Queries</label>
+                <div class="col-md-10">
+                    <textarea style="width:50%;height:200px;" class="txtActions"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="button" id="setNumTest" value="Send Test" class="btn btn-default" />
+                </div>
+            </div>
+            <div class="row">
+                <label class="col-md-2">Response:</label>
+                <div class="col-md-10">
+                    <textarea style="width:50%;height:200px;" class="txtResponse"></textarea>
+                </div>
+            </div>
+            <br /> 
+        </div>*@
+    </section>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<!-- /ko -->
